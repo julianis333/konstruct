@@ -1,3 +1,52 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 @font-face {
     font-family: "OpenSans";
     src: url("../fonts/OpenSans-VariableFont_wdth\,wght.woff2") format("woff2");
@@ -161,7 +210,6 @@ body, html {
     font-size: 20px;
     line-height: 23px;
     font-weight: bold;
-    height: 81px;
     margin-bottom: 15px;
     margin-top: 57px;
     margin-right: 77px;
@@ -175,7 +223,6 @@ body, html {
 .foundation-text {
     font-size: 13px;
     line-height: 23px;
-    height: 115px;
     margin-top: 15px;
     margin-right: 77px;
     letter-spacing: 0.2px;
@@ -184,6 +231,7 @@ body, html {
 .we-do-flex {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .we-do {
@@ -293,11 +341,13 @@ body, html {
     text-transform: uppercase;
     margin-right: 22px;
     margin-left: 23px;
-    margin-top: 141px;
+    margin-top: 28px;
     margin-bottom: 5px;
 }
 
 .capabilities-mini-text {
+    font-size: 13px;
+    line-height: 23px;
     margin-right: 22px;
     margin-left: 23px;
     margin-top: 5px;
@@ -317,23 +367,26 @@ body, html {
     border: 1px solid #E6E6E6;
 }
 
-.capabilities-mini-project {
-    background-image: url("/images/book.png");
-    background-repeat: no-repeat;
-    background-position: 23px 38px;
-    background-size: auto 75px;
+.capabilities-project-img {
+    margin-top: 38px;
+    margin-left: 23px;
+    width: 66px;
+    height: 75px;
+    background: url("../images/book.png") no-repeat center center; 
 }
 
-.capabilities-mini-structure {
-    background-image: url("/images/magazin.png");
-    background-repeat: no-repeat;
-    background-position: 23px 38px;
-    background-size: auto 75px;
+.capabilities-structure-img {
+    width: 68px;
+    height: 75px;
+    margin-top: 38px;
+    margin-left: 23px;
+    background: url("../images/magazin.png") no-repeat center center; 
 }
 
-.capabilities-mini-factory {
-    background-image: url("/images/bank.png");
-    background-repeat: no-repeat;
-    background-position: 23px 38px;
-    background-size: auto 75px;
+.capabilities-factory-img {
+    width: 71px;
+    height: 75px;
+    margin-top: 38px;
+    margin-left: 23px;
+    background: url("../images/bank.png") no-repeat center center; 
 }
