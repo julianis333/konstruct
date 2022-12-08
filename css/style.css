@@ -56,9 +56,9 @@ body, html {
     text-transform: uppercase;
     font-size: 60px;
     line-height: 70px;
-    letter-spacing: 5.70937px;
+    letter-spacing: 6px;
     height: 60px;
-    margin-bottom: 10.5px;
+    margin-bottom: 11px;
 }
 
 .achivements {
@@ -75,31 +75,27 @@ body, html {
     text-transform: uppercase;
     font-size: 11px;
     line-height: 12px;
-    letter-spacing: 3.7px;
+    letter-spacing: 4px;
     margin-bottom: 71px;
     margin-top: auto;
 }
 
 section {
-    margin-left: 16.67%;
-    margin-right: 16.67%;
+    width: 67%;
+    margin: 0 auto;
 }
 
 .nav-logo {
     height: 18px;
     margin-top: 24px;
-    margin-bottom: 23px;
-    margin-left: 16.67%;
+    margin-bottom: 12px;
 }
 
 .main-navigation {
-    width: 100%;
+    width: 67%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-}
-
-.navigation-list {
-    margin-right: 16.67%;
 }
 
 .navigation-list-item {
@@ -108,10 +104,8 @@ section {
     list-style-type: none;
     font-size: 12px;
     line-height: 14px;
-    letter-spacing: 1.09091px;
+    letter-spacing: 1px;
     height: 16px;
-    margin-top: 12px;
-    margin-bottom: 11.5px;
     display: inline-flex;
     margin-left: 30px;
 }
@@ -135,7 +129,7 @@ section {
     height: 25px;
     font-size: 18px;
     line-height: 21px;
-    letter-spacing: 2.30625px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
     margin-top: 57px;
@@ -164,13 +158,12 @@ section {
 
 .foundation {
     font-size: 20px;
-    line-height: 23.44px;
-    letter-spacing: 0.1875px;
+    line-height: 23px;
     font-weight: bold;
     height: 81px;
     margin-bottom: 15px;
     margin-top: 57px;
-    margin-right: 76.92px;
+    margin-right: 77px;
 }
 
 .blue-text {
@@ -181,9 +174,8 @@ section {
     font-size: 13px;
     line-height: 23px;
     height: 115px;
-    letter-spacing: 0.1875px;
     margin-top: 15px;
-    margin-right: 76.92px;
+    margin-right: 77px;
 }
 
 .we-do-flex {
@@ -197,7 +189,6 @@ section {
     height: 58px;
     font-size: 24px;
     line-height: 29px;
-    letter-spacing: 0.1875px;
     color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
