@@ -138,7 +138,7 @@ body, html {
 .nav-logo {
     height: 18px;
     margin-top: 24px;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
 }
 
 .main-navigation {
@@ -152,7 +152,6 @@ body, html {
 .navigation-list-item {
     font-weight: 600;
     text-transform: uppercase;
-    list-style-type: none;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 1.1px;
@@ -296,12 +295,13 @@ body, html {
     margin-right: 138px;
 }
 
-.capabilities-button {
+.button {
     font-family: "OpenSans", sans-serif;
     font-size: 13px;
     line-height: 15px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    text-decoration: none;
     height: 40px;
     width: 150px;
     background: #00A4E5;
@@ -356,7 +356,8 @@ body, html {
 }
 
 .capabilities-mini-flex {
-    margin: auto auto;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 27px;
@@ -390,4 +391,165 @@ body, html {
     margin-top: 38px;
     margin-left: 23px;
     background: url("../images/bank.png") no-repeat center center; 
+}
+
+.container-link {
+    width: 150px;
+    background: #00A4E5;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.contact-body {
+    margin-top: 235px;
+    background-color: #f2f2f2;
+    background-image: url("/images/city.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 499px;
+}
+
+.contact-body-description {
+    margin-bottom: 35px;
+    height: 72px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0.15px;
+    text-align: center;
+}
+
+.container-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-email {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0.85px;
+    color: #FFFFFF;
+    margin-left: 70px;
+}
+
+.form-contact {
+    display: grid;
+    background-color: #171819;
+    height: 100px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+}
+
+.email-input {
+    width: 250px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 auto;
+    margin-left: 70px;
+    margin-right: -6.5px;
+}
+
+.email-container {
+    margin: 0 auto;
+    
+}
+
+.main-footer {
+    color: #FFFFFF;
+    background-color: #141A20;
+}
+
+.footer-links-list a {
+    height: 25px;
+    font-size: 11px; 
+    line-height: 227%;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-footer a:hover {
+    color: #00A4E5
+}
+
+.footer-info {
+    width: 67%;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 4fr 4fr 1.5fr 2fr;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.footer-header {
+    text-transform: uppercase;
+    font-weight: 400;
+    height: 15px;
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 42px;
+}
+
+.address-item {
+    font-size: 11px;
+    line-height: 16px;
+    color: #fff;
+    letter-spacing: 0.846154px; 
+}
+
+.address-item p {
+    text-decoration: none;
+}
+
+.footer-logo {
+    height: 23px;
+    margin-top: 19px;
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    line-height: 173%;
+    font-size: 11px;
+    letter-spacing: 0.85px;
+}
+
+.links-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.links-second,
+.links-third {
+    margin-top: 67px;
+}
+
+.social-list-items {
+    margin-left: 24px;
+    height: 12px;
+    margin-top: 72px;
+    display: inline-block;
+    flex-wrap: nowrap;
+}
+
+.copyright-container {
+    display: grid;
+    margin: 0 auto;
+    height: 60px;
+    background: #171819;
+    align-items: center;
+    justify-content: center;
 }
